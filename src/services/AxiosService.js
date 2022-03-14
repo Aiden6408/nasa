@@ -4,3 +4,7 @@ export const api = Axios.create({
   baseURL,
   timeout: 8000
 })
+
+export const nasaimages = Axios.create({
+  baseURL: 'https://api.nasa.gov/planetary/apod'
+})
